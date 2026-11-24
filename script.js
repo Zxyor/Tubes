@@ -59,7 +59,7 @@ const profiles = {
     name: "Alisa Nuraini",
     role: "Mahasiswa S1 Teknik Informatika · NIM 2343028",
     photo: "assets/images/Alisa.jpeg",
-    email: "2343028@wicida.ac.id",
+    email: "syasasa2322@gmail.com",
     about: "Mahasiswa aktif Program Studi S1 Teknik Informatika di STMIK Widya Cipta Dharma angkatan 2023 dengan fokus pada pengembangan aplikasi berbasis web, perancangan basis data, dan analisis sistem informasi. Terbiasa bekerja kolaboratif dalam tim, menyusun dokumentasi teknis, serta menyelesaikan masalah secara terstruktur dan teliti.",
     education: [["2023 – Sekarang", "STMIK Widya Cipta Dharma · S1 Teknik Informatika · NIM 2343028"]],
     experience: [
