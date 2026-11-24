@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio Squad SZLG">
+  <title>Squad SZLG</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="header" id="top">
+    <a class="brand" href="#top" aria-label="Beranda">
+      <span class="brand-mark"><img src="assets/images/foto%20tim.jpg" alt="Foto Tim Teknik Informatika"></span>
+      <span>Portofolio Tim</span>
+    </a>
+    <nav class="nav" aria-label="Navigasi utama">
+      <a href="#tentang">Tentang</a>
+      <a href="#anggota">Anggota</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> Teknik Informatika · 2026</p>
+        <h1>Kami membangun<br><em>solusi digital.</em></h1>
+        <p class="hero-desc">Tim mahasiswa yang berfokus pada pengembangan aplikasi, data, cloud, dan pengalaman digital yang bermanfaat.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#anggota">Kenali Tim <span>↘</span></a>
+          <a class="text-link" href="#tentang">Tentang kami <span>↓</span></a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Ilustrasi tim">
+        <div class="orb orb-one"></div>
+        <div class="orb orb-two"></div>
+        <div class="portrait-card main-card">
+          <div class="portrait-placeholder">
+            <img class="team-photo" src="assets/images/foto%20tim.jpg" alt="Tim Teknik Informatika">
+          </div>
+          <div class="card-tag"><span class="status-dot"></span> Available for project</div>
+        </div>
+        <div class="floating-card float-one"><strong>4</strong><span>Anggota</span></div>
+        <div class="floating-card float-two"><strong>12+</strong><span>Keahlian</span></div>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Bidang keahlian">
+      <div class="marquee-track">
+        <div class="marquee-group">
+          <span>COMPUTING</span><i>✦</i>
+          <span>DATA ENGINEERING</span><i>✦</i>
+          <span>SOFTWARE ENGINEERING</span><i>✦</i>
+          <span>WEB DEVELOPMENT</span><i>✦</i>
+          <span>UI/UX DESIGN</span><i>✦</i>
+        </div>
+        <div class="marquee-group" aria-hidden="true">
+          <span>COMPUTING</span><i>✦</i>
+          <span>DATA ENGINEERING</span><i>✦</i>
+          <span>SOFTWARE ENGINEERING</span><i>✦</i>
+          <span>WEB DEVELOPMENT</span><i>✦</i>
+          <span>UI/UX DESIGN</span><i>✦</i>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="tentang">
+      <div class="section-label"><span>01</span> Tentang Kami</div>
+      <div class="about-grid">
+        <h2>Kami belajar.<br>Kami berkreasi.<br><em>Kami tumbuh.</em></h2>
+        <div class="about-copy">
+          <p>Kami adalah mahasiswa Teknik Informatika yang memiliki semangat untuk menciptakan karya digital yang modern, bermanfaat, dan mudah digunakan.</p>
+          <p>Melalui kolaborasi, kami mengembangkan kompetensi di berbagai bidang teknologi sambil membangun pengalaman nyata melalui proyek dan kegiatan organisasi.</p>
+        </div>
+      </div>
+      <div class="stats">
+        <article><strong>4</strong><span>Mahasiswa aktif</span></article>
+        <article><strong>12+</strong><span>Bidang keahlian</span></article>
+        <article><strong>∞</strong><span>Rasa ingin tahu</span></article>
+      </div>
+    </section>
+
+    <section class="members section" id="anggota">
+      <div class="members-heading">
+        <div class="section-label"><span>02</span> Tim Kami</div>
+        <h2>Orang-orang<br>di balik <em>karya.</em></h2>
+      </div>
+
+      <div class="member-grid">
+        <article class="member-card" data-name="Gilbeth Arisyaldi">
+          <div class="member-top">
+            <span class="member-number">01</span>
+            <button class="profile-button" type="button" data-profile="gilbeth" aria-label="Lihat profil Gilbeth">↗</button>
+          </div>
+          <div class="avatar"><img src="assets/images/gilbeth.jpeg" alt="Gilbeth Arisyaldi"></div>
+          <div class="member-info">
+            <p>Teknik Informatika · NIM 2343044</p>
+            <h3>Gilbeth<br>Arisyaldi</h3>
+          </div>
+          <div class="tags"><span>Teknologi</span><span>Magang</span><span>Kebudayaan</span></div>
+        </article>
+
+        <article class="member-card" data-name="Syahfiq Hikmal Tedrika">
+          <div class="member-top">
+            <span class="member-number">02</span>
+            <button class="profile-button" type="button" data-profile="syahfiq" aria-label="Lihat profil Syahfiq">↗</button>
+          </div>
+          <div class="avatar"><img src="assets/images/Syahfiq.jpeg" alt="Syahfiq Hikmal Tedrika"></div>
+          <div class="member-info">
+            <p>Teknik Informatika · NIM 2343042</p>
+            <h3>Syahfiq<br>Hikmal Tedrika</h3>
+          </div>
+          <div class="tags"><span>Web Dev</span><span>Video</span><span>Broadcast</span></div>
+        </article>
+
+        <article class="member-card" data-name="Muhammad Zada Firjatullah">
+          <div class="member-top">
+            <span class="member-number">03</span>
+            <button class="profile-button" type="button" data-profile="zada" aria-label="Lihat profil Zada">↗</button>
+          </div>
+          <div class="avatar"><img src="assets/images/zada.jpeg" alt="Muhammad Zada Firjatullah"></div>
+          <div class="member-info">
+            <p>Python Developer · Software Engineer</p>
+            <h3>Muhammad Zada<br>Firjatullah</h3>
+          </div>
+          <div class="tags"><span>Python</span><span>Cloud</span><span>Database</span></div>
+        </article>
+
+        <article class="member-card" data-name="Alisa Nuraini">
+          <div class="member-top">
+            <span class="member-number">04</span>
+            <button class="profile-button" type="button" data-profile="alisa" aria-label="Lihat profil Alisa">↗</button>
+          </div>
+          <div class="avatar"><img src="assets/images/Alisa.jpeg" alt="Alisa Nuraini"></div>
+          <div class="member-info">
+            <p>Teknik Informatika · NIM 2343028</p>
+            <h3>Alisa<br>Nuraini</h3>
+          </div>
+          <div class="tags"><span>Teknologi</span><span>Informatika</span><span>Inovasi</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact section" id="kontak">
+      <div>
+        <p class="eyebrow"><span></span> Mari Berkolaborasi</p>
+        <h2>Punya ide?<br><em>Mari wujudkan.</em></h2>
+      </div>
+      <a class="contact-button" href="mailto:arisyaldigilbeth@gmail.com">
+        <span>Hubungi Tim</span><b>↗</b>
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#top"><span class="brand-mark">TI</span><span>Portofolio Tim</span></a>
+    <p>© 2026 · Teknik Informatika</p>
+  </footer>
+
+  <dialog class="profile-modal" id="profileModal">
+    <button class="modal-close" type="button" aria-label="Tutup">×</button>
+    <div class="modal-layout">
+      <aside class="modal-profile">
+        <img id="modalPhoto" src="" alt="">
+        <div>
+          <p id="modalRole"></p>
+          <h2 id="modalName"></h2>
+          <a id="modalEmail" href="#"></a>
+        </div>
+      </aside>
+      <div class="modal-content">
+        <section>
+          <h3>Tentang</h3>
+          <p id="modalAbout"></p>
+        </section>
+        <section>
+          <h3>Pendidikan</h3>
+          <div id="modalEducation" class="detail-list"></div>
+        </section>
+        <section>
+          <h3>Pengalaman</h3>
+          <div id="modalExperience" class="detail-list"></div>
+        </section>
+        <section>
+          <h3>Keahlian</h3>
+          <div id="modalSkills" class="skill-list"></div>
+        </section>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
