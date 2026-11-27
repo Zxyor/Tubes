@@ -43,7 +43,7 @@ const profiles = {
       ["Agustus 2026 – Sekarang", "PT Medica Sehat Terpadu · Direksi / pengembangan digital"],
       ["Januari 2026 – Maret 2026", "LPP TVRI Kalimantan Timur · Broadcast Engineering Intern"]
     ],
-    skills: ["Web Development", "Video Editing", "Broadcast Engineering", "Storytelling Visual", "Creative Multimedia"]
+    skills: ["Web Development", "Video Editing", "Broadcast Engineering", "Storytelling Visual", "Creative Multimedia", "After Effect", "Photoshop"]
   },
   zada: {
     name: "Muhammad Zada Firjatullah",
